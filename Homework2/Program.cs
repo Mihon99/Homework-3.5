@@ -8,7 +8,7 @@ int[] CreatArray(int[] array)
 {
 for (int i = 0; i < n; i++)
 {
-    int number = new Random().Next(0, 10);
+    int number = new Random().Next(-10, 10);
     array[i] = number;
 }
 return array;
